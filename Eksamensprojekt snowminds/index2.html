@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toll Havs, Lækkert sortiment</title>
+    <!-- keywords -->
+    <meta name="description" content="Launchpage for Toll Havs Café">
+    <meta name="keywords" content="refshaleø, refshaleøen, toll havs, billig café, kultur i København, spis, reffen, lækkert mad, god stemning, havnebad, nice, things, to, do, in, habour, weather, Instagram">
+    <!-- keywords end -->
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- JS FILES -->
+    <script rel="preconnect" src="js/jquery.tubular.1.0.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script rel="preconnect" src="js/script.js" defer></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <!-------------------------- NAVBAR -------------------------->
+  <section>
+    <nav>
+        <div class="logo">
+          <a href="#"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Hjem</a></li>
+          <li><a href="#om">Om</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#kontakt">Rabat</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#lokation">Lokation</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+  </section>
+<!-------------------------- HEADER -------------------------->
+
+      <section class="video-container"></section>
+      
+<!-------------------------- HEADER BULLET POINTS -------------------------->
+<section>        
+        <div data-aos="fade-up" class="container">
+          <div>
+            <a href="#menu">
+            <img src="img/drink.svg" alt="drink">
+            <p>DRINKS</p>
+          </a>
+          </div>
+          <div>
+            <a href="#menu">
+            <img src="img/ice.svg" alt="is">
+            <p>ICE</p>
+            </a>
+          </div>
+          <div>
+            <a href="#menu">
+            <img src="img/snacks.svg" alt="snakcs">
+            <p>GRAB N' GO</p>
+            </a>
+          </div>
+        </div>
+        <div class="header">
+      </section>
+<!-------------------------- OM -------------------------->
+      <section class="om" id="om">
+        <h3 data-aos="fade-up"  class="overskriftom"><span class="generelspan">KOM</span> UD TIL REFFEN</h3>
+        <div data-aos="fade-up" class="tekst">
+          <div>
+            <h5>REFFEN DENGANG</h5>
+            <p>Refshaleøen ligger som en ø i Københavns havn. Den var hjemplads for Danmarks største arbejdsplads Burmeister & Wain, som havde ikke mindre end 10.000 medarbejder under sig, som alle arbejdede ude på Refshaleøen. De producerede motorer, kedler og centrifuger. <br> <br> Inden dette kæmpe firma overtog pladsen på Reffen, var der ikke andet end sandbanker derude. Københavns havnevæsen besluttede sig for at flade arealet ud, og derved skabe nyt land.</p>
+          </div>
+          <div>
+            <h5>REFFEN I DAG</h5>
+            <p>Efter at det store firma gik konkurs i 1996, blev øen overtaget af Refshaleøens Ejendomsselskab, som til den dag i dag, udlejer lokaler på øen til alle slags mennesker. I dag ligger der bl.a. arbejdspladser, gallerier, strandbar, street food marked, yacht hotel og meget meget mere. 
+              <br><br>
+              Øen er også kendt for sine mange events der forgår derude. Her er Distortion, Copenhell bare nogle af de store events der bliver afholdt på øen. 
+              <br><br>
+              Øen er et samlingspunkt for rigtig mange forskellige mennesker, turister valfarter derud for at spise den gode mad og drikke de gode øl. Men også for at tilbringe sine timer på de gode spots der findes rundt omkring på øen.
+              </p>
+          </div>
+        </div>
+      </section>
+<!-------------------------- MENU -------------------------->
+      <section id="menu" class="menuwrapper">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu <img src="img/arrow-down-sign-to-navigate.svg" alt="arrow-down"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <div class="menuflex">
+              <div>
+                <h3>| DRIKKEVARER</h3>
+                <p>Dagens fadøl <span class="pris">59 kr.</span></p>
+                <p>Øl tårn 5L <span class="pris">449 kr.</span></p>
+                <p>Økologisk sodavand <br>(Faxe, Cola, Sprite, Fanta, Fanta Lemon)<span class="pris">25 kr.</span></p>
+                <p>Månedens vin <span class="pris">229 kr.</span></p>
+                <p>Udlandsk flaskeøl - b.la. Asahi <span class="pris">49 kr.</span></p>
+                <p>Økologisk kombucha <span class="pris">59 kr.</span></p>
+              </div>
+              <div>
+                <h3>| GRAB N' GO</h3>
+                <p>Surdejs toast <span class="pris">59 kr.</span></p>
+                <p>Ole's rucola pizza <span class="pris">129 kr.</span></p>
+                <p>Avocado mad, på ristet surdejsbrød <span class="pris">79 kr.</span></p>
+                <p>Gedeost salat <span class="pris">139 kr.</span></p>
+                <p>Snackkurv <br>(Oliven, friteret bacon, sprød surdejssticks med hjemmerørt aioli) <span class="pris">79 kr.</span></p>
+                <p>Organiske spIS ispinde <span class="pris">25 kr.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-------------------------- RABAT -------------------------->
+      <section id="kontakt" class="rabat">
+        <div class="studie">
+          <h3 class="headlinedis" data-aos="fade-up">FÅ 10% STUDIERABAT PÅ <br> UDVALGTE PRODUKTER!</h3>
+          <p data-aos="fade-up">ELLER UDFYLD NYHEDSBREV <br>OG FÅ LÆKRE TILBUD</p>
+        </div>
+        <a href="#subs"><button class="nyhedsbtn">NYHEDSBREV</button></a>
+        <img class="studyimg" src="img/studierabat.jpg" alt="rabat">
+      </section>
+
+<!-------------------------- SoMe -------------------------->
+      <section>
+        <div class="some-wrapper">
+          <h3 class="some-headline"><span class="generelspan">Følg</span> os på instagram</h3>
+          <p class="some-tekst">Vi vil løbende lægge konkurrencer og events op på vores instagram</p>
+          <br>
+          <p class="hashtag"><span class="toll">#Toll Havs</span> på Instagram og få 10% på første bestilling</p>
+        </div>
+        <div class="grid-some">
+          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CPS58f9hco0/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CPS58f9hco0/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Vis dette opslag på Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CPS58f9hco0/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Et opslag delt af Toll Havs (@tollhavs)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CPQFayklCOZ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CPQFayklCOZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Vis dette opslag på Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CPQFayklCOZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Et opslag delt af Toll Havs (@tollhavs)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CPS4N3cBPaM/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CPS4N3cBPaM/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Vis dette opslag på Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CPS4N3cBPaM/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Et opslag delt af Toll Havs (@tollhavs)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+      </section>
+<!-------------------------- Tur på reffen -------------------------->
+      <h3 class="mapbox-header"><span class="generelspan">KOM</span> MED EN TUR PÅ REFFEN!</h3>
+      <section class="mapbox-container">
+        <div id="map"></div>
+        <div id="features">
+        <section id="baker" class="active">
+        <h3>Toll Havs</h3>
+        <p>
+        Toll Havs is a diverse and lovely café, which opens on Refshalevej 151 in the summer of 2021. On the café you can get a large assortment of delicious snacks, as well as good drinks. There are also nice items for the sweet tooth on Toll Havs. Moreover, it is also a nice and cheap alternative to the rest of the food places on Reffen. So, swing by to see the enchanting assortment on Toll Havs. Who knows, maybe even for a dip in the Habour-pool right beside us. See you there?
+        </p>
+        </section>
+        <section id="aldgate">
+        <h3>Amass</h3>
+        <p>
+          Amass is a delicious gourmet restaurant with lots of nice opportunities for nice food experience. Beside of good food for meat lovers, they also offer nice menus for vegetarians and vegans. Furthermore, Amass has a series of blasting wines, which of course are arranged to the specific dish by a sommelier. In that way its possible to reach a unique combination of good food and nice beverages.
+        </p>
+        </section>
+        <section id="london-bridge">
+        <h3>Mikeller</h3>
+        <p>
+          Mikkeller is close to the tip of Refshaleøen. Mikeller is a microbrewery which is owned by Danes. It was founded in Copenhagen in 2006 and today consists of more than 50 places around the country. If you want a special beer and a nice experience, you might want to give this a shot.
+        </p>
+        </section>
+        <section id="woolwich">
+        <h3>La Banchina</h3>
+        <p>
+          La Banchina is a restaurant that consists of 16 seats, which are often occupied. La Banchina is just in front of the habour-pool, which gives it a great location. It is a calm place to relax and enjoy some vegetarian food, as well as seafood.
+        </p>
+        </section>
+        <section id="gloucester">
+        <h3>Copenhill</h3>
+        <p>
+          Copenhill is an urban mountain spot. It offers a lot of nice skiing as well as good company, and a nice environment to meet new friends. If you want to experience something adventurous on Refshaleøen, then this is the place to go.
+        </p>
+        </section>
+        <section id="caulfield-gardens">
+        <h3>Alchemist</h3>
+        <p>
+          Alchemist is hard to explain with words really. Alchemist is a restaurant with dynamic food, in a unique and special way. On Alchemist its possible to buy more than 50 different dishes, and of course beverage that fits right to it. 
+        </p>
+        </section>
+        <section id="telegraph">
+        <h3>The Habour-pool</h3>
+        <p>
+          The Copenhagen habour-pool is very attractive during the busy summer months. It is a lovely place right next to Urban Rigger, where you can always get a nice dip and cool down. Its close to both Toll Havs and La Banchina, so if you want to grab a beer in the warm sun, its right next to Toll Havs’ backyard.
+        </p>
+        </section>
+        <section id="charing-cross">
+        <h3>Lille Bakery</h3>
+        <p>
+          Lille Bakery is a mix of both the Danish and English words. Lille means little. This one sticks out a bit, as it is the only bakery on Refshaleøen. Here you can get both nice sourdough bread, as well as some unique rye bread. It is also possible for you to find some fresh drinks, like milk, juice, or smoothies.
+        </p>
+        <small id="citation">
+        Adapted from
+        <a href="http://www.gutenberg.org/files/2346/2346-h/2346-h.htm">Project Gutenberg</a>
+        </small>
+        </section>
+        </div>
+      </section>
+<!-------------------------- INFO -------------------------->
+      <section class="flexinfo" id="info">
+        <div>
+          <h3 class="info" data-aos="fade-up"><span class="generelspan">INFO</span> OM CAFFÉEN</h3>
+        </div>
+        <div class="info-container">
+
+          <div>
+            <h5 data-aos="fade-up">HUSETS HISTORIE</h5>
+            <p data-aos="fade-up">Denne gule bygning som i dag indrammer Snowminds kontorbygning, har en lang historie bag sig og dens placering er ikke tilfældig. <br><br> Denne gule bygning blev i 1800 tallet brugt som told hus, her skulle skibsmænd og fragtskibe betale deres told når de enten kom ind i landet eller skulle forlade det. Derfor er dens placering også noget af det første du ser når du kommer ind på Refshaleøen. Grunden til navnet på Cafeen kommer også fra denne historie.</p>
+          </div>
+
+          <div>
+            <h5 data-aos="fade-up">IDÉ OG KONCEPT</h5>
+            <p data-aos="fade-up">Den samme gule bygning som krævede penge fra de sejlende folk, skal nu bruges til at oprette øens kiosk/cafe. Caféen Toll Havs skal invitere til hygge på de store græsarealer, samt den store terrasse. <br> <br> Her vil der blive mulighed for at sætte sig med en øl, kaffe, te, vin osv. Der vil blive plads til alle slags mennesker, turister som lokale, der er priser som rammer den helt normale brugere, men også specialvare som skal tiltrække vinelskeren samt specialøl til øl eksperten. 
+              <br> <br>
+              Maden der bliver serveret her, vil blive i en grab ’n go stil, hvor du træder ind cafeen, henter dig noget at spise i form af special brød, toast lavet med lækre råvarer, og sætter dig ud på vores lækre terrasse eller de nærliggende grønne områder. 
+              </p>
+          </div>
+
+        </div>
+      </section>
+<!-------------------------- FOOTER -------------------------->
+      <section id="lokation">
+        <footer>
+          <div class="content">
+            <div class="left box">
+              <div class="upper">
+                <div class="topic">Om os</div>
+                <p>Velkommen til vores nyopstartede café på reffen. Vi vil skabe en hyggeligt
+                  atmosfære for alle der kommer hos os. Velkommen til Toll Havs.
+                </p>
+              </div>
+              <div class="lower">
+                <div class="topic">Kontakt os</div>
+                <div class="phone">
+                  <a href="#"><i class="fas fa-phone-volume"></i>+45 67 67 67 67</a>
+                </div>
+                <div class="email">
+                  <a href="#"><i class="fas fa-envelope"></i>snowminds@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="middle box">
+              <div class="topic">Info</div>
+              <div><a href="https://www.google.com/maps/place/Snowminds/@55.6918783,12.6095707,17z/data=!3m1!4b1!4m5!3m4!1s0x465252d776bbf25f:0x6b60652b7a9c0087!8m2!3d55.6902931!4d12.6111698">Refshalevej 151, 1432 København</a></div>
+              <div><a href="#">Åbningstider 8-22 alle dage</a></div>
+              <div><a href="#"><b>*Partnere*</b></a></div>
+              <div><a href="https://spis-ispinde.dk/kontakt-os">spIS - Ispinde</a></div>
+              <div><a href="https://snowminds.com/">Snowminds</a></div>
+              <div><a href="https://reffen.dk/">Refshaløen</a></div>
+            </div>
+            <div class="right box">
+              <div class="topic">Nyhedsbrev</div>
+              <form action="#">
+                <input id="subs" type="text" placeholder="Skriv email adresse">
+                <input type="submit" name="" value="Send">
+                <div class="media-icons">
+                  <a href="https://www.facebook.com/SnowmindsDanmark"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/snowmindsdk/?hl=da"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.youtube.com/channel/UCGeC2XxpARInWYzCIZbcLRg"><i class="fab fa-youtube"></i></a>
+                  <a href="https://www.linkedin.com/in/snowminds-group/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <div id="wrapper"></div>
+      <!-------------------------- DATA AOS -------------------------->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

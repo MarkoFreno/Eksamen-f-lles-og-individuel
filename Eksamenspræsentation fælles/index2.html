@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toll Havs, Lækkert sortiment</title>
+    <!-- keywords -->
+    <meta name="description" content="Launchpage for Toll Havs Café">
+    <meta name="keywords" content="refshaleø, refshaleøen, toll havs, billig café, kultur i København, spis, reffen, lækkert mad, god stemning, havnebad, nice, things, to, do, in, habour, weather, Instagram">
+    <!-- keywords end -->
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- JS FILES -->
+    <script rel="preconnect" src="js/jquery.tubular.1.0.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script rel="preconnect" src="js/script.js" defer></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-------------------------- NAVBAR -------------------------->
+  <section>
+    <nav>
+        <div class="logo">
+          <a href="#"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Hjem</a></li>
+          <li><a href="#om">Om</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#kontakt">Rabat</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#lokation">Lokation</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+  </section>
+<!-------------------------- HEADER -------------------------->
+
+      <section class="video-container"></section>
+      
+<!-------------------------- HEADER BULLET POINTS -------------------------->
+<section>        
+        <div data-aos="fade-up" class="container">
+          <div>
+            <a href="#menu">
+            <img src="img/drink.svg" alt="drink">
+            <p>DRINKS</p>
+          </a>
+          </div>
+          <div>
+            <a href="#menu">
+            <img src="img/ice.svg" alt="is">
+            <p>ICE</p>
+            </a>
+          </div>
+          <div>
+            <a href="#menu">
+            <img src="img/snacks.svg" alt="snakcs">
+            <p>GRAB N' GO</p>
+            </a>
+          </div>
+        </div>
+        <div class="header">
+      </section>
+<!-------------------------- OM -------------------------->
+      <section class="om" id="om">
+        <h3 data-aos="fade-up"  class="overskriftom"><span class="generelspan">KOM</span> UD TIL REFFEN</h3>
+        <div data-aos="fade-up" class="tekst">
+          <div>
+            <h5>REFFEN DENGANG</h5>
+            <p>Refshaleøen ligger som en ø i Københavns havn. Den var hjemplads for Danmarks største arbejdsplads Burmeister & Wain, som havde ikke mindre end 10.000 medarbejder under sig, som alle arbejdede ude på Refshaleøen. De producerede motorer, kedler og centrifuger. <br> <br> Inden dette kæmpe firma overtog pladsen på Reffen, var der ikke andet end sandbanker derude. Københavns havnevæsen besluttede sig for at flade arealet ud, og derved skabe nyt land.</p>
+          </div>
+          <div>
+            <h5>REFFEN I DAG</h5>
+            <p>Efter at det store firma gik konkurs i 1996, blev øen overtaget af Refshaleøens Ejendomsselskab, som til den dag i dag, udlejer lokaler på øen til alle slags mennesker. I dag ligger der bl.a. arbejdspladser, gallerier, strandbar, street food marked, yacht hotel og meget meget mere. 
+              <br><br>
+              Øen er også kendt for sine mange events der forgår derude. Her er Distortion, Copenhell bare nogle af de store events der bliver afholdt på øen. 
+              <br><br>
+              Øen er et samlingspunkt for rigtig mange forskellige mennesker, turister valfarter derud for at spise den gode mad og drikke de gode øl. Men også for at tilbringe sine timer på de gode spots der findes rundt omkring på øen.
+              </p>
+          </div>
+        </div>
+      </section>
+<!-------------------------- MENU -------------------------->
+      <section id="menu" class="menuwrapper">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu <img src="img/arrow-down-sign-to-navigate.svg" alt="arrow-down"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <div class="menuflex">
+              <img src="img/menu overlay.png" alt="menu">
+            </div>
+          </div>
+        </div>
+      </section>
+<!-------------------------- Products -------------------------->
+      <section>
+        <h3 class="produkter"><span class="generelspan">Du</span> kan også se lidt lækkert herunder</h3>
+        <div class="grid-container">
+
+          <div class="items">
+                    <img src="img/øl1.png" alt="øl3">
+                    <p class="myDIV"> <b>Super dry</b><br> <span class="grid-span"> Asahí - Japan</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/øl2.png" alt="øl1">
+            <p class="myDIV"> <b>Stiegl</b><br> <span class="grid-span"> Goldbraü - Østrig</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/øl3.png" alt="øl2">
+            <p class="myDIV"> <b>Molson</b><br> <span class="grid-span"> Canadian - Canada</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/2.png" alt="drik1">
+            <p class="myDIV"> <b>Raspberry</b><br> <span class="grid-span">Craft Soda</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/3.png" alt="drik2">
+            <p class="myDIV"> <b>Passion fruit</b><br> <span class="grid-span">Craft Soda</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/Untitled-5.png" alt="drik3">
+            <p class="myDIV"> <b>Elderflower</b><br> <span class="grid-span">Craft Soda</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/is1.png" alt="is1">
+            <p class="myDIV"> <b>Jordbær Jytte</b><br> <span class="grid-span"><span class="small">sp</span>is</span></p>
+          </div>
+
+          <div class="items">
+            <img src="img/is5.png" alt="is2">
+            <p class="myDIV"> <b>Regnbue Rie</b><br> <span class="grid-span"><span class="small">sp</span>is</span></p>          
+          </div>
+
+          <div class="items">
+            <img src="img/4.png" alt="øl3">
+            <p class="myDIV"> <b>Kiwi Karen</b><br> <span class="grid-span"><span class="small">sp</span>is</span></p>          
+          </div>
+
+        </div>
+      </section>
+
+<!-------------------------- Rabat -------------------------->
+      <section id="kontakt" class="rabat">
+        <div class="studie">
+          <h3 class="headlinedis" data-aos="fade-up">FÅ 10% STUDIERABAT PÅ <br> UDVALGTE PRODUKTER!</h3>
+          <p data-aos="fade-up">ELLER UDFYLD NYHEDSBREV <br>OG FÅ LÆKRE TILBUD</p>
+        </div>
+        <a href="#subs"><button class="nyhedsbtn">NYHEDSBREV</button></a>
+        <img class="studyimg" src="img/studierabat.jpg" alt="rabat">
+      </section>
+<!-------------------------- INFO -------------------------->
+      <section class="flexinfo" id="info">
+        <div>
+          <h3 class="info" data-aos="fade-up"><span class="generelspan">INFO</span> OM CAFFÉEN</h3>
+        </div>
+        <div class="info-container">
+
+          <div>
+            <h5 data-aos="fade-up">HUSETS HISTORIE</h5>
+            <p data-aos="fade-up">Denne gule bygning som i dag indrammer Snowminds kontorbygning, har en lang historie bag sig og dens placering er ikke tilfældig. <br><br> Denne gule bygning blev i 1800 tallet brugt som told hus, her skulle skibsmænd og fragtskibe betale deres told når de enten kom ind i landet eller skulle forlade det. Derfor er dens placering også noget af det første du ser når du kommer ind på Refshaleøen. Grunden til navnet på Cafeen kommer også fra denne historie.</p>
+          </div>
+
+          <div>
+            <h5 data-aos="fade-up">IDÉ OG KONCEPT</h5>
+            <p data-aos="fade-up">Den samme gule bygning som krævede penge fra de sejlende folk, skal nu bruges til at oprette øens kiosk/cafe. Caféen Toll Havs skal invitere til hygge på de store græsarealer, samt den store terrasse. <br> <br> Her vil der blive mulighed for at sætte sig med en øl, kaffe, te, vin osv. Der vil blive plads til alle slags mennesker, turister som lokale, der er priser som rammer den helt normale brugere, men også specialvare som skal tiltrække vinelskeren samt specialøl til øl eksperten. 
+              <br> <br>
+              Maden der bliver serveret her, vil blive i en grab ’n go stil, hvor du træder ind cafeen, henter dig noget at spise i form af special brød, toast lavet med lækre råvarer, og sætter dig ud på vores lækre terrasse eller de nærliggende grønne områder. 
+              </p>
+          </div>
+
+        </div>
+      </section>
+<!-------------------------- FOOTER -------------------------->
+      <section id="lokation">
+        <footer>
+          <div class="content">
+            <div class="left box">
+              <div class="upper">
+                <div class="topic">Om os</div>
+                <p>Velkommen til vores nyopstartede café på reffen. Vi vil skabe en hyggeligt
+                  atmosfære for alle der kommer hos os. Velkommen til Toll Havs.
+                </p>
+              </div>
+              <div class="lower">
+                <div class="topic">Kontakt os</div>
+                <div class="phone">
+                  <a href="#"><i class="fas fa-phone-volume"></i>+45 67 67 67 67</a>
+                </div>
+                <div class="email">
+                  <a href="#"><i class="fas fa-envelope"></i>snowminds@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="middle box">
+              <div class="topic">Info</div>
+              <div><a href="https://www.google.com/maps/place/Snowminds/@55.6918783,12.6095707,17z/data=!3m1!4b1!4m5!3m4!1s0x465252d776bbf25f:0x6b60652b7a9c0087!8m2!3d55.6902931!4d12.6111698">Refshalevej 151, 1432 København</a></div>
+              <div><a href="#">Åbningstider 8-22 alle dage</a></div>
+              <div><a href="#"><b>*Partnere*</b></a></div>
+              <div><a href="https://spis-ispinde.dk/kontakt-os">spIS - Ispinde</a></div>
+              <div><a href="https://snowminds.com/">Snowminds</a></div>
+              <div><a href="https://reffen.dk/">Refshaløen</a></div>
+            </div>
+            <div class="right box">
+              <div class="topic">Nyhedsbrev</div>
+              <form action="#">
+                <input id="subs" type="text" placeholder="Skriv email adresse">
+                <input type="submit" name="" value="Send">
+                <div class="media-icons">
+                  <a href="https://www.facebook.com/SnowmindsDanmark"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/snowmindsdk/?hl=da"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.youtube.com/channel/UCGeC2XxpARInWYzCIZbcLRg"><i class="fab fa-youtube"></i></a>
+                  <a href="https://www.linkedin.com/in/snowminds-group/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <div id="wrapper"></div>
+      <!-------------------------- DATA AOS -------------------------->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
